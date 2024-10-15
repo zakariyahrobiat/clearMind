@@ -9,10 +9,10 @@ function LandingPage() {
     <BackgroundLayout>
     
       <div className='flex flex-col md:flex-row text-center items-start justify-between h-screen'>
-      <div className=' h-1/2 w-full md:w-1/2 md:h-full'>
+      <div className=' h-1/2 w-full md:w-2/5 md:h-full'>
           <img src={image} alt="Moodscape illustration" className='h-full w-full'/>
         </div>
-        <div className=' md:w-1/2 '>
+        <div className=' md:w-3/5 '>
         <div className='md:w-2/3 m-auto p-5 md:p-0'>
               <h1 className='text-headingColor text-5xl font-bold  pb-3 md:pb-6'>Moodscape</h1>
           <p className='font-bold text-3xl text-blueText py-3 md:py-10'>Get Started</p>
