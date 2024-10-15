@@ -2,6 +2,7 @@ import React from 'react'
 import LandingPage from '../home/LandingPage'
 import { FormContainer } from '../home/FormContainer'
 import { createBrowserRouter } from 'react-router-dom'
+import Avater from '../home/Avater'
 const router = createBrowserRouter([
     {
         path:"/",
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
     {
         path:"/Form",
         element:<FormContainer/>
+    },
+    {
+        path:"/Avater",
+        element:<Avater/>
     }
 ])
 
