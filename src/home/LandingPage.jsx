@@ -8,7 +8,7 @@ function LandingPage() {
   return (
     <BackgroundLayout>
     
-      <div className='flex flex-col md:flex-row text-center items-center justify-between h-screen'>
+      <div className='flex flex-col md:flex-row text-center items-start justify-between h-screen'>
       <div className=' h-1/2 w-full md:w-1/2 md:h-full'>
           <img src={image} alt="Moodscape illustration"   className='h-full w-full'/>
         </div>
