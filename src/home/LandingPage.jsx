@@ -7,9 +7,13 @@ function LandingPage() {
     const {count} = useAuth()
   return (
     <BackgroundLayout>
-      <div className='flex flex-col-reverse md:flex-row text-center items-center justify-between h-screen p-5'>
+    
+      <div className='flex flex-col md:flex-row text-center items-center justify-between h-screen'>
+      <div className=' h-1/2 w-full md:w-1/2 md:h-full'>
+          <img src={image} alt="Moodscape illustration"   className='h-full w-full'/>
+        </div>
         <div className=' md:w-1/2 '>
-        <div className='md:w-2/3 m-auto'>
+        <div className='md:w-2/3 m-auto p-5 md:p-0'>
               <h1 className='text-headingColor text-5xl font-bold  pb-3 md:pb-6'>Moodscape</h1>
           <p className='font-bold text-3xl text-blueText py-3 md:py-6'>Get Started</p>
           <p className='font-normal text-lg  pb-3 md:pb-6'>Join our anonymous mental health community. We are all imperfectly perfect here and we support one another each day</p>
@@ -19,9 +23,7 @@ function LandingPage() {
         </div>
         </div>
         
-        <div className=' h-1/2 w-full md:w-1/2 md:h-full'>
-          <img src={image} alt="Moodscape illustration"   className='h-full w-full'/>
-        </div>
+        
       </div>
     </BackgroundLayout>
   )
