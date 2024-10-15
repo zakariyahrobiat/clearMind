@@ -1,5 +1,5 @@
 import React from 'react'
-import { useAuth } from '../context/Context'
+import { useAuth } from '../context/AuthContext'
 import { BackgroundLayout } from '../Layout/BackgroundLayout'
 import { Link } from 'react-router-dom'
 import image from "../assets/image.png"
