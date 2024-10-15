@@ -10,6 +10,7 @@ export default {
       "backgroundColor": "#FFFFFF",
       "headingColor":"#0B1F27",
       "blueText":"#62CFF8",
+      "inputColor":"#C2EEFF",
       "blackText":"#404648"
       },
       fontFamily:{
